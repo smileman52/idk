@@ -1,4 +1,4 @@
-var array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+var digits = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var Guess = 0;
 var Password = 0;
 var Letter1 = 0;
@@ -32,4 +32,5 @@ while (Guess.includes(Password)) {
     Letter1 += 1;
     Letter2 = 1;
   }
+  
 }
