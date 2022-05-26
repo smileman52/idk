@@ -2,7 +2,6 @@ var Digits = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "
 var Guess = 0;
 var GuessesMade = 0;
 var MaximumGuesses = 2176782336;
-var Password = 0;
 var Letter1 = 0;
 var Letter2 = 0;
 var Letter3 = 0;
