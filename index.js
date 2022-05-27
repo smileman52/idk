@@ -9,8 +9,6 @@ var Letter3 = 0;
 var Letter4 = 0;
 var Letter5 = 0;
 var Letter6 = 0;
-var name = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + name);
 while (Guess.includes(Password)) {
   Letter6 += 1;
   if (Letter6 > 36) {
