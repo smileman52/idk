@@ -11,7 +11,7 @@ var Letter5 = 0;
 var Letter6 = 0;
 var name = window.prompt("Enter the name you want to hack: "); 
 alert("The password is " + name); 
-text("Cracking...", 0, 0);;
+text("Cracking...", 0, 0);
 while (Guess.includes(Password)) {
   Letter6 += 1;
   if (Letter6 > 36) {
