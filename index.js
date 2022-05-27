@@ -1,14 +1,14 @@
 var Digits = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
-var Guess = 0;
-var Password = 0;
-var GuessesMade = 0;
-var MaximumGuesses = 2176782336;
-var Letter1 = 0;
-var Letter2 = 0;
-var Letter3 = 0;
-var Letter4 = 0;
-var Letter5 = 0;
-var Letter6 = 0;
+let Guess = 0;
+let Password = 0;
+let GuessesMade = 0;
+let MaximumGuesses = 2176782336;
+let Letter1 = 0;
+let Letter2 = 0;
+let Letter3 = 0;
+let Letter4 = 0;
+let Letter5 = 0;
+let Letter6 = 0;
 while (Guess.includes(Password)) {
   Letter6 += 1;
   if (Letter6 > 36) {
@@ -35,5 +35,4 @@ while (Guess.includes(Password)) {
   GuessesMade += 1;
   MaximumGuesses -= 1;
 }
-background(255, 255, 255);
-text("Done! Your Password is " + Guess + ". This took " + GuessesMade + " tries.", 0, 0);
+document.getElementById("done").innerHTML = Done! Your Password is " + Guess + ". This took " + GuessesMade + " tries.", 0, 0;
