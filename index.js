@@ -1,6 +1,6 @@
 var Digits = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 let Guess = 0;
-let Password = 0;
+let Password = name;
 let GuessesMade = 0;
 let MaximumGuesses = 2176782336;
 let Letter1 = 0;
@@ -31,7 +31,7 @@ while (Guess.includes(Password)) {
     Letter1 += 1;
     Letter2 = 1;
   } 
-  Guess = Digits.join(Letter1 and Letter2 and Letter3 and Letter4 and Letter5 and Letter6);
+  Guess = Digits.join(Letter1 + Letter2 + Letter3 + Letter4 + Letter5 + Letter6);
   GuessesMade += 1;
   MaximumGuesses -= 1;
 }
