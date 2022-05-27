@@ -10,8 +10,7 @@ var Letter4 = 0;
 var Letter5 = 0;
 var Letter6 = 0;
 var name = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + name); 
-text("Cracking...", 0, 0);
+alert("The password is " + name);
 while (Guess.includes(Password)) {
   Letter6 += 1;
   if (Letter6 > 36) {
@@ -37,7 +36,6 @@ while (Guess.includes(Password)) {
   Guess = Digits.join(Letter1 and Letter2 and Letter3 and Letter4 and Letter5 and Letter6);
   GuessesMade += 1;
   MaximumGuesses -= 1;
-  text(Guess, 0, 80)
 }
 background(255, 255, 255);
 text("Done! Your Password is " + Guess + ". This took " + GuessesMade + " tries.", 0, 0);
