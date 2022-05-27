@@ -9,8 +9,8 @@ var Letter3 = 0;
 var Letter4 = 0;
 var Letter5 = 0;
 var Letter6 = 0;
-var Password = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + Password); 
+var name = window.prompt("Enter the name you want to hack: "); 
+alert("The password is " + name); 
 text("Cracking...", 0, 0);;
 while (Guess.includes(Password)) {
   Letter6 += 1;
