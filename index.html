@@ -22,9 +22,15 @@
         <body> 
             <h1>Brute Force Cracker</h1>
             <p>Hi idk here script</p>
+            <p id="done"></p>
         <script>
-               var name = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + name);
+               var Password = window.prompt("Enter the password you want to hack: "); 
+alert("The password is " + Password);
+            </script>
+            <script>
+                let Guess = 2
+                let GuessesMade= 10
+                document.getElementById("done").innerHTML = Done! Your Password is " + Guess + ". This took " + GuessesMade + " tries.", 0, 0;
             </script>
         </body>
 </html>
