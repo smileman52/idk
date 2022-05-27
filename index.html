@@ -3,34 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Brute Force Cracker</title>
-        <style>
-            h1{
-                text-align: center;
-                font-family: "Arial";
-                font-size: 40px;
-                }
-             p{
-                text-align: center;
-                font-family: "Arial";
-                font-size: 20px;
-                }
-            body{
-                background-color: rgb(4, 81, 204);    
-                }
-        </style>
     </head>
         <body> 
             <h1>Brute Force Cracker</h1>
             <p>Hi idk here script</p>
-            <div id="number"></div>
+            <div id="counter">
+          
+          </div>
         <script>
-               var Password = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + Password);
-            </script>
-            <script>
-
+ let counts=setInterval(updated);
+        let upto=0;
         function updated(){
-            var count= document.getElementById("number");
+            var count= document.getElementById("counter");
             count.innerHTML=++upto;
             if(upto===1000)
             {
