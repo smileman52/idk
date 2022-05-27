@@ -30,7 +30,7 @@ while (Guess.includes(Password)) {
   if (Letter2 > 36) {
     Letter1 += 1;
     Letter2 = 1;
-  }
+  } 
   Guess = Digits.join(Letter1 and Letter2 and Letter3 and Letter4 and Letter5 and Letter6);
   GuessesMade += 1;
   MaximumGuesses -= 1;
