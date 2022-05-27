@@ -28,7 +28,15 @@
 alert("The password is " + Password);
             </script>
             <script>
-document.getElementById("number").innerHTML = Password;
-            </script>
+let counts=setInterval(updated);
+        let upto=0;
+        function updated(){
+            var count= document.getElementById("number");
+            count.innerHTML=++upto;
+            if(upto===1000)
+            {
+                clearInterval(counts);
+            }
+        }
         </body>
 </html>
