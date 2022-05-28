@@ -37,11 +37,14 @@
         function updated(){
             var count= document.getElementById("counter");
             count.innerHTML=++upto;
-             if (upto.includes(Password))
+             if (getlength(Password)===getlength(upto)+Password===upto)
           {
           alert("Your Password is")
           }
             }
+        function getlength(number) {
+    return number.toString().length;
+}
     </script>
 </body>
 </html>
