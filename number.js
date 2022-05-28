@@ -6,7 +6,7 @@ var Password = window.prompt("Enter the password you want to hack(numbers only):
             count.innerHTML=++upto
           if(upto=Password)
           {
-          alert("The password is" + upto)
+          alert("I cracked you Password!")
               window.stop()
           }
           }
