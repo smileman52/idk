@@ -4,9 +4,9 @@ var Password = window.prompt("Enter the password you want to hack(numbers only):
         function updated(){
             var count= document.getElementById("counter");
             count.innerHTML=++upto
-          if(upto=Password)
+          if(counts=Password)
           {
-          alert("I cracked you Password!")
+          alert("I cracked you Password! Its "+upto)
               window.stop()
           }
           }
