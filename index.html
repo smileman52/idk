@@ -34,18 +34,14 @@
          var Password = window.prompt("Enter the password you want to hack: ")
         let counts=setInterval(updated);
         let upto=0;
-        if (Password.includes(upto))
-        {
-        alert("The password is " + upto);
-        }
         function updated(){
             var count= document.getElementById("counter");
             count.innerHTML=++upto;
-            if(upto===1000)
-            {
-                clearInterval(updated);
+             if (Password.includes(upto))
+          {
+          alert("Your Password is")
+          }
             }
-        }
     </script>
 </body>
 </html>
