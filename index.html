@@ -26,7 +26,7 @@
         </style>
   <script>
        var Password = window.prompt("Enter the password you want to hack: "); 
-alert("The password is " + Password);
+
       </script>
       <body>
           <h1>Brute Force Cracker</h1>
@@ -37,6 +37,10 @@ alert("The password is " + Password);
     <script>
         let counts=setInterval(updated);
         let upto=0;
+        if(upto===Password)
+        {
+        alert("The password is " + upto);
+        }
         function updated(){
             var count= document.getElementById("counter");
             count.innerHTML=++upto;
