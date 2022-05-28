@@ -37,9 +37,12 @@
         function updated(){
             var count= document.getElementById("counter");
             count.innerHTML=++upto;
-             if (getlength(Password)===getlength(upto)+Password===upto)
+             if (getlength(Password)===getlength(upto))
           {
-          alert("Your Password is")
+          if(upto===Password)
+          {
+          alert("The password is")
+          }
           }
             }
         function getlength(number) {
