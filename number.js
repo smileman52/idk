@@ -4,7 +4,9 @@ let upto=0;
 function updated(){
         var count= document.getElementById("counter");
         count.innerHTML=++upto
-        if(upto=Password)
-                {alert("I cracked you Password!")
-                 window.stop()}
+        if(upto==Password)
+                {
+                 alert("I cracked you Password!"+ upto)
+                 clearInterval()
+                }
 }
