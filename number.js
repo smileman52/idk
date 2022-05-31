@@ -7,6 +7,7 @@ function updated(){
         if(upto==Password)
                 {
                  document.getElementById("counter").innerHTML = upto;
+                 window.stop()
                  alert("I cracked your Password! "+ upto)
                  window.stop()
                 }
