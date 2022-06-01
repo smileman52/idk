@@ -6,10 +6,10 @@ alert("I cracked your Password! "+ upto)
 }
 function updated(){
         var count= document.getElementById("counter");
-        count.innerHTML=++upto
+        count.innerHTML=++upt0
         if(upto==Password)
                 {
                  document.getElementById("counter").innerHTML = upto;
-                 window.setTimeout(alert, 5);
+                 window.setTimeout(alert, 0);
                 }
 }
